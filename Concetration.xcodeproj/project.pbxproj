@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B2E5F021C0160400F75845 /* ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2E5EF21C0160400F75845 /* ConcentrationThemeChooserViewController.swift */; };
 		02F79A7F2179332600C3CE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F79A7E2179332600C3CE82 /* AppDelegate.swift */; };
-		02F79A812179332600C3CE82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F79A802179332600C3CE82 /* ViewController.swift */; };
+		02F79A812179332600C3CE82 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F79A802179332600C3CE82 /* ConcentrationViewController.swift */; };
 		02F79A842179332600C3CE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F79A822179332600C3CE82 /* Main.storyboard */; };
 		02F79A872179332600C3CE82 /* Concetration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02F79A852179332600C3CE82 /* Concetration.xcdatamodeld */; };
 		02F79A892179332700C3CE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F79A882179332700C3CE82 /* Assets.xcassets */; };
 		02F79A8C2179332700C3CE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F79A8A2179332700C3CE82 /* LaunchScreen.storyboard */; };
 		02F79A972179332700C3CE82 /* ConcetrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F79A962179332700C3CE82 /* ConcetrationTests.swift */; };
 		02F79AA22179332700C3CE82 /* ConcetrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F79AA12179332700C3CE82 /* ConcetrationUITests.swift */; };
+		02F79AB1217A5C1D00C3CE82 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F79AB0217A5C1D00C3CE82 /* Card.swift */; };
+		02F79AB3217A5C9700C3CE82 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F79AB2217A5C9700C3CE82 /* Concentration.swift */; };
+		02FE75BF21AD5B2900A457D9 /* ThemeCooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE75BE21AD5B2900A457D9 /* ThemeCooserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B2E5EF21C0160400F75845 /* ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
 		02F79A7B2179332600C3CE82 /* Concetration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concetration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F79A7E2179332600C3CE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02F79A802179332600C3CE82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02F79A802179332600C3CE82 /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 		02F79A832179332600C3CE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02F79A862179332600C3CE82 /* Concetration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Concetration.xcdatamodel; sourceTree = "<group>"; };
 		02F79A882179332700C3CE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		02F79A9D2179332700C3CE82 /* ConcetrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcetrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F79AA12179332700C3CE82 /* ConcetrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcetrationUITests.swift; sourceTree = "<group>"; };
 		02F79AA32179332700C3CE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F79AB0217A5C1D00C3CE82 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		02F79AB2217A5C9700C3CE82 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		02FE75BE21AD5B2900A457D9 /* ThemeCooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCooserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,15 @@
 		02F79A7D2179332600C3CE82 /* Concetration */ = {
 			isa = PBXGroup;
 			children = (
-				02F79A7E2179332600C3CE82 /* AppDelegate.swift */,
-				02F79A802179332600C3CE82 /* ViewController.swift */,
+				02F79AAF2179334500C3CE82 /* SupportingFiles */,
+				02F79A802179332600C3CE82 /* ConcentrationViewController.swift */,
+				02B2E5EF21C0160400F75845 /* ConcentrationThemeChooserViewController.swift */,
+				02F79AB2217A5C9700C3CE82 /* Concentration.swift */,
+				02F79AB0217A5C1D00C3CE82 /* Card.swift */,
 				02F79A822179332600C3CE82 /* Main.storyboard */,
-				02F79A882179332700C3CE82 /* Assets.xcassets */,
-				02F79A8A2179332700C3CE82 /* LaunchScreen.storyboard */,
 				02F79A8D2179332700C3CE82 /* Info.plist */,
 				02F79A852179332600C3CE82 /* Concetration.xcdatamodeld */,
+				02FE75BE21AD5B2900A457D9 /* ThemeCooserViewController.swift */,
 			);
 			path = Concetration;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				02F79AA32179332700C3CE82 /* Info.plist */,
 			);
 			path = ConcetrationUITests;
+			sourceTree = "<group>";
+		};
+		02F79AAF2179334500C3CE82 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				02F79A7E2179332600C3CE82 /* AppDelegate.swift */,
+				02F79A882179332700C3CE82 /* Assets.xcassets */,
+				02F79A8A2179332700C3CE82 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F79A812179332600C3CE82 /* ViewController.swift in Sources */,
+				02F79A812179332600C3CE82 /* ConcentrationViewController.swift in Sources */,
+				02F79AB3217A5C9700C3CE82 /* Concentration.swift in Sources */,
+				02B2E5F021C0160400F75845 /* ConcentrationThemeChooserViewController.swift in Sources */,
 				02F79A872179332600C3CE82 /* Concetration.xcdatamodeld in Sources */,
+				02FE75BF21AD5B2900A457D9 /* ThemeCooserViewController.swift in Sources */,
 				02F79A7F2179332600C3CE82 /* AppDelegate.swift in Sources */,
+				02F79AB1217A5C1D00C3CE82 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,13 +461,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ADN69MSHGQ;
+				DEVELOPMENT_TEAM = LE9R8RS9NE;
 				INFOPLIST_FILE = Concetration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sinisa.vukovic.concetration.Concetration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinis.vukovi.concetration.Concetration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,13 +480,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ADN69MSHGQ;
+				DEVELOPMENT_TEAM = LE9R8RS9NE;
 				INFOPLIST_FILE = Concetration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sinisa.vukovic.concetration.Concetration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinis.vukovi.concetration.Concetration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
